@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stop watch</title>    
+</head>
+
+<style>
+    body{
+       background-color: #1A237E;
+       text-align: center;
+       border: 15px solid #ffffff;
+       border-radius: 10px; 
+       margin: 10px;
+       padding: 10px;
+       margin-top: 250px;
+       width: 50%;
+       margin-left: 300px;
+   }
+
+   h1{
+       background-color: #ffffff;
+       display: inline-block;
+       color: blue;
+       width: 100px;
+   }
+
+</style>
+
+
+<body>
+    <div>
+       <h1>stop watch</h1>
+    </div>
+
+    <div>
+        <h1 id="min">0</h1>
+        <h1 id="sec">0</h1>
+        <h1 id="msec">0</h1>
+    </div>
+
+    <div>
+        <button onclick="start()">start</button>
+        <button onclick="stop()">stop</button>
+        <button onclick="reset()">reset</button>
+    </div>
+    
+
+    <script src="app.js"></script>
+
+</body>
+</html>
